@@ -1,0 +1,25 @@
+﻿A REST API (Representational State Transfer) is a standardized architectural style that allows different software applications to communicate and exchange data over the internet using the HTTP protocol. It treats data as "resources" (such as a user, a product, or an image) which are accessed via unique URLs called endpoints. [1, 2, 3, 4]
+________________
+Core Mechanics
+Clients interact with a REST API by performing standard web actions that map directly to database operations (known as CRUD): [5]
+* GET: Retrieves data from the server (Read).
+* POST: Submits data to create a new resource (Create).
+* PUT / PATCH: Modifies an existing resource on the server (Update).
+* DELETE: Removes a resource from the server (Delete). [5, 6, 7, 8]
+Key Characteristics
+* Statelessness: The server does not store any context or session information about the client between requests. Every single request must contain all the information necessary to process it. [8, 9, 10]
+* Format Flexibility: While it can handle multiple formats, data is most commonly exchanged using JSON because it is lightweight and human-readable. [5, 10]
+* Decoupled Design: It cleanly separates the frontend (client) from the backend (server), allowing developers to update or change one without breaking the other. [8, 9]
+If you are looking to work with one, would you like to know how to authenticate your requests or see a code example of a REST API call?
+
+
+[1] https://www.redhat.com
+[2] https://www.youtube.com
+[3] https://mannhowie.com
+[4] https://cloud.google.com
+[5] https://www.ibm.com
+[6] https://www.youtube.com
+[7] https://www.geeksforgeeks.org
+[8] https://www.youtube.com
+[9] https://www.ibm.com
+[10] https://www.youtube.com
